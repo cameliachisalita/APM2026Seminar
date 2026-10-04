@@ -1,0 +1,53 @@
+Aspecte administrative
+- codul pentru Teams fjqikt6
+- structura team-ului din Teams
+- citit regulile de seminar Seminar Rules
+- lista de prezenta
+
+1. C++ vs Java
+-- .h, .cpp,  vs .java
+-- compilare + executie (prg.exe params) vs compilare + interpretare (java <main class name> params)
+-- portabilitatea Java intre OS
+
+2. link JDK - Java27 or Java25, Java Documentation
+- https://www.oracle.com/java/
+- https://www.oracle.com/java/technologies/downloads/
+- https://www.oracle.com/java/technologies/downloads/#java27
+- Archive for Java25 - https://www.oracle.com/java/technologies/downloads/archive/
+- Java Documentation https://docs.oracle.com/en/java/javase/27/docs/api/index.html
+
+2'. Java25 , JEPs (JDK Enhancement Proposals)
+- https://openjdk.org/jeps/1
+- https://blog.jetbrains.com/idea/2025/09/java-25-lts-and-intellij-idea/
+
+
+3. link jetbrains.com (Eclipse, NetBeans, etc.)
+- https://account.jetbrains.com/login
+- adresa scs.ubbcluj.ro sau stud.ubbcluj.ro
+- https://www.jetbrains.com/idea/download/#section=windows  - ULTIMATE
+
+- activare licenta
+
+4. creare proiect Java, New Project
+- Java, JDK 23 sau 25
+- arhitectura Model- Repository-Controller- view, main class===> pachete
+- in pachetul model - folosim clase
+- in pachetul repository - folosim interfete
+- eventual, discutie, cand folosim interfete si clase (abstracte sau nu)
+
+5. PACHETUL MODEL
+- de implementat clasa/interfata Item si clasa Apple, creare, afisare de obiecte in metoda statica main
+- discutie despre clasa de baza Object, adnotarea override si metoda toString
+- apelul automat la metodei toString sau afisarea adresei de memorie a obiectului
+- clasa System si obiectele out, in, err
+- rulare cu parametru din linia de comanda sau hardcoded
+	System.out.println("Provide the item type (1=Apple, 2=Cake, 3=Book):");
+        Scanner sc= new Scanner(System.in);
+        int type=Integer.parseInt(sc.nextLine());
+
+6. PACHETUL REPOSITORY
+- interfata pentru repository + implementarea repo-ului folosind array of fixed size + afisare
+- afisare cu "foreach" sau "for (int index=0;index<size;index++)
+Rezolvarea problemei (partial, nu va fi timp suficient)
+
+7. PACHETUL VIEW
