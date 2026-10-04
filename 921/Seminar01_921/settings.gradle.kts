@@ -1,0 +1,1 @@
+rootProject.name = "Seminar01_921"
